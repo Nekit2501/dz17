@@ -1,0 +1,379 @@
+*
+{
+margin: 0 auto;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+
+:root
+{
+--logo-and-navigation: #95E1D3;
+--title-subtitle: #333333l;
+--text: #B6B6B6;
+--decor: #F38181;
+}
+
+.visually-hidden 
+{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+
+outline: 0;
+outline-offset: 0;
+
+visibility: hidden;
+pointer-events: none;
+}
+
+.logo
+{
+width: 98px;
+height: 33px;
+
+margin-top: 17px;
+
+color: #95E1D3;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.header
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.nav
+{
+display: flex;
+}
+
+.ul-nav
+{
+display: flex;
+}
+
+.ABOUT
+{
+margin-top: 32px;
+margin-right: 55px;
+}
+
+.ABOUT:hover
+{
+color: var(--decor);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.ABOUT::after
+{
+content: "";
+width: 60px;
+height: 4px;
+background: var(--decor);
+display: flex;
+margin-top: 10px;
+
+}
+
+.SERVICE
+{
+margin-top: 32px;
+margin-right: 55px;
+}
+
+.SERVICE:hover
+{
+color: var(--decor);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.WORK
+{
+margin-top: 32px;
+margin-right: 55px;
+}
+
+.WORK:hover
+{
+color: var(--decor);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.BLOG
+{
+margin-top: 32px;
+margin-right: 55px;
+}
+.BLOG:hover
+{
+color: var(--decor);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.CONTACT
+{
+margin-top: 32px;
+margin-right: 0px;
+}
+
+.CONTACT:hover
+{
+color: var(--decor);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.Weworkwith
+{
+color: #333;
+font-family: Kaushan Script;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: block;
+
+}
+
+.hero
+{
+display: flex;
+flex-direction: column;
+margin-top: 130px;
+}
+
+.hero::after
+{
+content: "";
+width: 60px;
+height: 4px;
+background: #F38181;
+display: flex;
+margin: 40px auto 65px;
+}
+
+.Amazing-Services
+{
+color: var(--title-subtitle);
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700px;
+line-height: normal;
+
+}
+
+.ul-adventuges{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,1fr);
+row-gap: 100px;
+column-gap: 70px;
+}
+
+.lorem-adventures
+{
+margin-top: 10px;
+max-width: 310px;
+max-height: 40px;
+}
+
+.container-adventages
+{
+margin: 65px auto 100px;
+}
+
+.Who-we-are
+{
+display: flex;
+flex-direction: column;
+margin-top: 130px;
+}
+
+.Who-we-are-text
+{
+color: var(--title-subtitle);
+font-family: Kaushan Script;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.Meet-our-team
+{
+color: var(--title-subtitle);
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+margin-top: 17px;
+margin-bottom: 36px;
+}
+
+.subtext
+{
+width: 1100px;
+height: 47px;
+
+color: var(--text);
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 27px;
+}
+
+.we
+{
+display: flex;
+flex-direction: row;
+margin: 0 auto;
+
+}
+
+
+.Dix
+{
+margin-left: 360px;
+margin-bottom: 179px;
+display: flex;
+flex-direction: column;
+
+}
+
+.Christopher
+{
+display: flex;
+flex-direction: column;
+}
+
+
+.Michael
+{
+margin-right: 360px;
+display: flex;
+flex-direction: column;
+}
+
+.text-img
+{
+margin-top: 30px;
+margin-bottom: 10px;
+
+color: var(--title-subtitle);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.role
+{
+color: var(--text);
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+}
+
+.footer
+{
+display: flex;
+}
+
+.template
+{
+margin-left: 360px;
+color: #333;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 1px;
+margin-bottom: 20px;
+}
+
+.Laaqiq
+{
+color: var(--decor);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 5px;
+}
+
+.input
+{
+width: 230px;
+height: 39px;
+flex-shrink: 0;
+
+stroke-width: 1px;
+stroke: #B6B6B6;
+margin-bottom: 10px;
+margin-right: 0px;
+}
+
+.button
+{
+margin-left: 0px;
+width: 150px;
+height: 40px;
+flex-shrink: 0;
+background: #95E1D3;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+
+font-weight: 700;
+}
