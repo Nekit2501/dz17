@@ -78,11 +78,6 @@ margin-right: 55px;
 .ABOUT:hover
 {
 color: var(--decor);
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
 }
 
 .ABOUT::after
@@ -105,11 +100,6 @@ margin-right: 55px;
 .SERVICE:hover
 {
 color: var(--decor);
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
 }
 
 .WORK
@@ -121,11 +111,7 @@ margin-right: 55px;
 .WORK:hover
 {
 color: var(--decor);
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+
 }
 
 .BLOG
@@ -136,11 +122,7 @@ margin-right: 55px;
 .BLOG:hover
 {
 color: var(--decor);
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+
 }
 
 .CONTACT
@@ -152,11 +134,7 @@ margin-right: 0px;
 .CONTACT:hover
 {
 color: var(--decor);
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+
 }
 
 .Weworkwith
